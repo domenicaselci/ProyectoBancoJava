@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+     body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        background-color: #333;
+        padding-top: 20px;
+        color: white;
+    }
+
+    .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+    }
+
+    .sidebar a:hover {
+        background-color: #555;
+    }
+
+    .content {
+        margin-left: 250px;
+        padding: 20px;
+    }
+
+	.message-table {
+    width: 100%; /* Ancho total de la tabla */
+    border-collapse: collapse; /* Colapso de bordes */
+    border: 1px solid #ccc; /* Borde de la tabla */
+}
+
+/* Estilos para las celdas */
+.message-table td {
+    padding: 8px; /* Relleno interno de las celdas */
+    border: 1px solid #ccc; /* Borde de las celdas */
+    text-align: center; /* Alineación del texto en el centro */
+}
+
+/* Estilos para mensajes específicos */
+.message-table td:nth-child(2) {
+    text-align: left; /* Alineación del texto a la izquierda para el segundo td (mensajes) */
+    font-weight: bold; /* Texto en negrita */
+    color: red; /* Color del texto */
+}
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 10px;
+    }
+
+    table, th, td {
+        border: 1px solid #333;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #333;
+        color: white;
+    }
+
+	 tr:nth-child(even) {
+        background-color: #f2f2f2;
+        
+    }
+
+    .search-form {
+        margin-bottom: 20px;
+    }
+
+    .center-button {
+        text-align: center;
+        margin:10px;
+    }
+    
+    
+    .banner {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:50%;
+            margin:0;
+            background-color: #B4B4B4;
+
+        }
+    .table2 tr{
+     width: 100%;
+       background-color: #B4B4B4;
+      
+    }
+     .table2 td{
+ text-align: center;
+    }
+    
+    
+    
+    .table2 {
+    margin:0px;
+    border-spacing:15px
+    }
+    
+    
+ .boton-azul {
+  background-color: blue; /* Cambia el color de fondo a azul */
+  /* Otros estilos */
+  color: white; /* Cambia el color del texto a blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+ input[type="submit"]:hover{
+        	background-color: #555;
+        	color: white;
+        }
+        
+ .mensajeError{
+    	color:red;
+    	text-align:center;
+    }
+  .mensajeExitoso{
+    	text-align:center;}   
+        
+    
